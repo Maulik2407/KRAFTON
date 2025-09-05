@@ -1,0 +1,119 @@
+@media only screen and (max-width:600px) {
+
+
+    .first-box {
+        position: relative;
+        /* overflow: hidden; */
+        width: 100%;
+        height: 50vh;
+        /* border: 4px solid rgb(229, 255, 0); */
+    }
+
+    .txxx  {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    width: 70%;
+}
+
+    
+    .first-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* border: 4px solid rgb(0, 217, 255); */
+       
+    }
+    .r-scroll {
+        overflow: auto;
+        scrollbar-width: none;
+        width: 100%;
+        height: 416px;
+        scroll-behavior: auto;
+    }
+
+    .rbxx {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        /* border: 4px solid red; */
+        overflow: auto;
+        scrollbar-width: none;
+    }
+
+    .rbxx-2 {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        /* border: 4px solid red;/ */
+        overflow: auto;
+        scrollbar-width: none;
+    }
+
+    .sec-card {
+        width: 400px;
+        height: 300px;
+    }
+
+    .rbxx h1 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .rbxx-2 h1 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .rbxx p {
+        font-size: 14px;
+    }
+
+    .ibox {
+        height: 340px;
+        overflow: hidden;
+        /* border: 4px solid black; */
+    }
+
+
+    .ibox-2 {
+        height: 200px;
+        overflow: hidden;
+        /* border: 4px solid black; */
+    }
+
+    .tt-card {
+        width: 400px;
+        height: 270px;
+        /* border: 4px solid blue; */
+        position: relative;
+        overflow: hidden;
+    }
+
+    .ff-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 50vh;
+        /* border: 4px solid red; */
+        overflow: auto;
+        scrollbar-width: none;
+    }
+
+    .card-four {
+        width: 300px;
+    }
+
+    .footer ul {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .footer ul li a {
+        font-size: 13px;
+        text-decoration: none;
+        color: white;
+    }
+
+}
